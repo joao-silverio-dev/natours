@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Advanced CSS project just for study purposes",
+  "homepage": "https://github.com/joao-silverio-dev/natours#readme",
+  "bugs": {
+    "url": "https://github.com/joao-silverio-dev/natours/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-silverio-dev/natours.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "dependencies": {
+    "sass": "^1.90.0"
+  }
+}
