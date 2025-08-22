@@ -1,0 +1,38 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: #777;
+}
+
+.heading-primary {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    backface-visibility: hidden;
+    margin-bottom: 7rem;
+
+    &-main {
+        display: block;
+        font-size: 7rem;
+        font-weight: 400;
+        letter-spacing: 5rem;
+        animation: moveInLeft 1s ease-out 0s 1;
+    }
+
+    &-sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 2.5rem;
+        animation: moveInRight 1s ease-out 0s 1;
+    }
+}
